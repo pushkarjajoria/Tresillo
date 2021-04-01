@@ -2,7 +2,10 @@
 
 ## Research question: 
 
-**Can we detect the “Tresillo” rhythm in music pieces given a MIDI file? Did the popularity of the “Tresillo” increase over the past few decades?**
+<p align="center">
+**"Did the popularity of the `Tresillo` increase over the past few decades?"**
+</p>
+- This above goal also inherently includes the question **Can we detect the `Tresillo` rhythm in music pieces given a MIDI file?**
 
 ## Motivation & Goals: 
 -   Design an algorithm to detect the "Tresillo" rhythm pattern  given a MIDI file of a song
@@ -27,6 +30,10 @@
 ## Methods 
 
 -   Rhythm analysis 
+    - It is important to note that there is a collection of Rhythms very similar to Tresillo in Latin American rhythms. One instance of this is the Cinquillo Rhythm, a common embellishment of tresillo by adding eighth notes to the Tresillo rhythm. This raises the question of what qualifies as a Tresillo beat as many song's add/embellish the beat with added notes (similar to Cinquillo). The Son-Clave also has the same triplet pattern in the first half of the beat, should we include it in our analysis aswell?
+    - We need to detect the existence of tresillo beat in the song by either:
+        1. Training a classifier by using the list of existing songs we know about.
+        2. Write a program to detect the triplet pattern of the tresillo beat.
 -   Time series analysis 
 
 ## Literature 
@@ -68,5 +75,3 @@
 -   In the methods part we describe a rule based approach and a machine-learning approach, what are your thoughts on that? Should we focus on one of those approaches?
 -   How strict should we be in defining the rhythm?
 -   Is the scope of the project managable (timewise and given our abilities)?
-
-
