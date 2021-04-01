@@ -3,6 +3,8 @@
 ## Research question: 
 
 **Can we detect the “Tresillo” rhythm in music pieces given a MIDI file? Did the popularity of the “Tresillo” increase over the past few decades?**
+
+## Motivation & Goals: 
 -   Design an algorithm to detect the "Tresillo" rhythm pattern  given a MIDI file of a song
 
 -   Long term developpement of the use of the "Tresillo" rhythm pattern in popular music (US-charts) 
@@ -65,6 +67,6 @@
 -   Do you have additional resources & websites for popular music data? Are there legal restrictions on the data analysis of music?
 -   In the methods part we describe a rule based approach and a machine-learning approach, what are your thoughts on that? Should we focus on one of those approaches?
 -   How strict should we be in defining the rhythm?
--   Is the scope of the project managable (timewise and given our abilities)
+-   Is the scope of the project managable (timewise and given our abilities)?
 
 
