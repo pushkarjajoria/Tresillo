@@ -56,7 +56,7 @@
 
 **Classifier:** labeling around 100 “Tresillo” rhythm (given their base and drum line in a MIDI file), and 100 typical non-“Tresillo” . Training a simple classifier which can detect the “Tresillo” rhythm (logistic regression, SVM, nothing complicated)
 
-**Modelling the “Tresillo” rhythm:** The “Tresillo” rhythm is clearly musically defined 
+**Modelling the “Tresillo” rhythm:** The “Tresillo” rhythm is clearly 
 [musically defined](https://en.wikipedia.org/wiki/Tresillo_(rhythm)) therefore we might be able to programmatically define and extract it with a rule based approach
 
 
