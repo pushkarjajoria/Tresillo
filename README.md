@@ -19,8 +19,6 @@
 
 -   The concret focus of the project lays in analyzing popular songs (as e.g. expressed in charts) over a certain period of time by looking at their rhythmic structure to see if they use the tresillo rhythm. 
 
--   Writing a rhythm detection algorithm and applying it to a popular music dataset 
-
 -   Billboard archive for chart informations, Spotify API, Millions song dataset 
 
 
