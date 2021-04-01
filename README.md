@@ -2,9 +2,9 @@
 
 ## Research question: 
 
-<p align="center">
+<div align="center">
 **"Did the popularity of the `Tresillo` increase over the past few decades?"**
-</p>
+</div>
 - This above goal also inherently includes the question **Can we detect the `Tresillo` rhythm in music pieces given a MIDI file?**
 
 ## Motivation & Goals: 
