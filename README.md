@@ -30,7 +30,7 @@
 -   Time series analysis 
 
 ## Literature 
-
+-   An Analysis of Rhythmic Patterns with Unsupervised Learning - Pesek, Matevž; Leonardis, Aleš; Marolt, Matija
 -   "The latin tinge" -- John Storm Roberts 
 
 -   RHYTHMIC PATTERN MODELING FOR BEAT AND DOWNBEATTRACKING IN MUSICAL AUDIO [Florian Krebs. Sebastian Böck, Gerhard Widmer] 
