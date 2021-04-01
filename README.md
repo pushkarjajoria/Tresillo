@@ -44,7 +44,7 @@
 
 -   How to develop a algorithm that is fine grained enough to detect the underlaying tresillo rhythm 
 
--   How to
+-   Did the use of the tresillo rhythm increase over the past decades 
 
 ## Data Links
 
