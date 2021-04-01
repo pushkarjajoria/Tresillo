@@ -3,8 +3,9 @@
 ## Research question: 
 
 **Can we detect the “Tresillo” rhythm in music pieces given a MIDI file? Did the popularity of the “Tresillo” increase over the past few decades?**
+-   Design an algorithm to detect the "Tresillo" rhythm pattern  given a MIDI file of a song
 
--   Developpement of the use of the "Tresillo" rhythm pattern in popular music (US-charts) 
+-   Long term developpement of the use of the "Tresillo" rhythm pattern in popular music (US-charts) 
 
 -   The larger context of the research questions is the growing influence of Latin American music on US and European popular music. This reflects onto a general topic of globalized popular music.  
 -   It seems that western popular music has become increasingly influenced by Latin music.When looking at the charts or listening to the radio, there seems to be more and more songs with Spanish lyrics or latin American artists. It would be very interesting to see if this perceived influence can be empirically traced and represented by underlying musical properties e.i. Rythm
