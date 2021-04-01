@@ -6,9 +6,9 @@
 
 -   Developpement of the use of the "Tresillo" rhythm pattern in popular music (US-charts) 
 
--   The larger context of the research questions is the growing influence of Latin American culture in the Us culture, and thereby influencing the western culture in general.   
+-   The larger context of the research questions is the growing influence of Latin American music on US and European popular music. This reflects onto a general topic of globalized popular music.  
+-   It seems that western popular music has become increasingly influenced by Latin music.When looking at the charts or listening to the radio, there seems to be more and more songs with Spanish lyrics or latin American artists. It would be very interesting to see if this perceived influence can be empirically traced and represented by underlying musical properties e.i. Rythm
 
--   In the everyday music surrounding us(e.g. Radio) there is a strong shift towards Latin influenced music noticeable( e.g. Spanish lyrics, latin American artists). It would be very interesting to see if the influence is maybe even bigger, represented by properties not so obvious as for example Spanish lyrics.  
 
 -   Possible outcomes may show a change over time, leading to new questions trying to explain the observed change. The use of the rhythm could also be static over time. 
 
