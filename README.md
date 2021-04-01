@@ -11,13 +11,15 @@
 
 -   The larger context of the research questions is the growing influence of Latin American music on US and European popular music. This reflects onto a general topic of globalized popular music.  
 -   It seems that western popular music has become increasingly influenced by Latin music.When looking at the charts or listening to the radio, there seems to be more and more songs with Spanish lyrics or latin American artists. It would be very interesting to see if this perceived influence can be empirically traced and represented by underlying musical properties e.i. Rythm
-
+-   An Analysis of Rhythmic Patterns with Unsupervised Learning - Pesek, Matevž; Leonardis, Aleš; Marolt, Matija
 
 -   Possible outcomes may show a change over time, leading to new questions trying to explain the observed change. The use of the rhythm could also be static over time. 
 
 ## Concepts and data 
 
 -   The concret focus of the project lays in analyzing popular songs (as e.g. expressed in charts) over a certain period of time by looking at their rhythmic structure to see if they use the tresillo rhythm. 
+
+-   Writing a rhythm detection algorithm and applying it to a popular music dataset 
 
 -   Billboard archive for chart informations, Spotify API, Millions song dataset 
 
