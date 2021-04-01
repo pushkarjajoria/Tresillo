@@ -61,10 +61,10 @@
 
 
 ## Question for TA
-/*:
--How much manual labeling do we have to expect? Is the MIDI file format suitable for an ‘efficient’ programmatic data extraction & analysis?
--Do you have additional resources & websites for popular music data? Are there legal restrictions on the data analysis of music?
--In the methods part we describe a rule based approach and a machine-learning approach, what are your thoughts on that? Should we focus on one of those approaches?
--How strict should we be in defining the rhythm?
- */
+
+-   How much manual labeling do we have to expect? Is the MIDI file format suitable for an ‘efficient’ programmatic data extraction & analysis?
+-   Do you have additional resources & websites for popular music data? Are there legal restrictions on the data analysis of music?
+-   In the methods part we describe a rule based approach and a machine-learning approach, what are your thoughts on that? Should we focus on one of those approaches?
+-   How strict should we be in defining the rhythm?
+
 
