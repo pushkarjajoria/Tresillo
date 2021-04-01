@@ -14,16 +14,17 @@
 
 ## Concepts and data 
 
--   The concret focus of the project lays in analyzing the most popular songs (as expressed in charts) over a certain period of time, anaylizing their rhythmic structure to see if the use the tresillo rhythm. 
+-   The concret focus of the project lays in analyzing popular songs (as e.g. expressed in charts) over a certain period of time by looking at their rhythmic structure to see if they use the tresillo rhythm. 
 
--   Writing a algorithm to detect the rhythm and thenm applying it to the dataset. 
+-   Writing a rhythm detection algorithm and applying it to a popular music dataset 
 
--   The billboard archive for the chart informations, Spotify API, Millions song dataset 
+-   Billboard archive for chart informations, Spotify API, Millions song dataset 
 
 
 ## Methods 
 
 -   Rhythm analysis 
+-   Time series analysis 
 
 ## Literature 
 
@@ -63,5 +64,6 @@
 -   Do you have additional resources & websites for popular music data? Are there legal restrictions on the data analysis of music?
 -   In the methods part we describe a rule based approach and a machine-learning approach, what are your thoughts on that? Should we focus on one of those approaches?
 -   How strict should we be in defining the rhythm?
+-   Is the scope of the project managable (timewise and given our abilities)
 
 
