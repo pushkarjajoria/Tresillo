@@ -38,7 +38,7 @@
 
 -   From Genre Classification to Rhythm Similarity: Computational and Musicological Insights -Esparza, Tlacael Miguel; Bello, Juan Pablo; Humphrey, Eric J. 
 
--   The questions is not directly addressed in any publication I could find, there are older puplications who examine the influence of latin music to the US music in general.  
+*The questions is not directly addressed in any publication I could find, there are older puplications who examine the influence of latin music to the US music in general.*  
 
 ## Contribution/Help 
 
