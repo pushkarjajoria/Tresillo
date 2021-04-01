@@ -49,3 +49,10 @@
 <https://colinraffel.com/projects/lmd/>
 
 <https://www.mididb.com/genres/>
+## Methods
+
+
+
+
+## Question for TA
+- Methods: What do 
