@@ -1,75 +1,51 @@
+
+
+
+
+
+
 # Tresillo Rythm: 
 
 ## Research question: 
 
-**Did the popularity of the `Tresillo` increase over the past few decades?**
-- This above goal also inherently includes the question **Can we detect the `Tresillo` rhythm in music pieces given a MIDI file?**
+**Did the popularity of the `Tresillo*` increase over the past few decades?**
+- This above goal also inherently includes the question **Can we detect the `Tresillo*` rhythm in music pieces given a MIDI file?**
 
 ## Motivation & Goals: 
--   Design an algorithm to detect the "Tresillo" rhythm pattern  given a MIDI file of a song
+The signature Tresillo beat in US pop music is steadily rising, noticeable by an increasing number of hits using this beat. From Ed Sheeran’s “Shape of you” to “Cheap Thrills” from sia. The influence can also be seen in a lot of tracks from Drake (For instance, Passionfruit). There is a noticeable increase in the number of western pop songs which use this signature latin rhythm with it’s triplet pattern and some other variants, without sounding like Latin songs. It would be very interesting to see how big of an influence this rhythm has right now and how it increased/decreased over the past years. This main aim of the project is to measure the use of the triplet pattern from tresillo rhythm on the western pop culture. We plan to do this by analysing the top 100 songs from billboard over the years. 
+Possible outcomes may show a change over time, leading to new questions trying to explain the observed change. The use of the rhythm could also be static over time. 
 
--   Long term developpement of the use of the "Tresillo" rhythm pattern in popular music (US-charts) 
+## Concepts 
 
--   The larger context of the research questions is the growing influence of Latin American music on US and European popular music. This reflects onto a general topic of globalized popular music.  
--   It seems that western popular music has become increasingly influenced by Latin music.When looking at the charts or listening to the radio, there seems to be more and more songs with Spanish lyrics or latin American artists. It would be very interesting to see if this perceived influence can be empirically traced and represented by underlying musical properties e.i. Rythm
--   An Analysis of Rhythmic Patterns with Unsupervised Learning - Pesek, Matevž; Leonardis, Aleš; Marolt, Matija
-
--   Possible outcomes may show a change over time, leading to new questions trying to explain the observed change. The use of the rhythm could also be static over time. 
-
-## Concepts and data 
-
--   The concret focus of the project lays in analyzing popular songs (as e.g. expressed in charts) over a certain period of time by looking at their rhythmic structure to see if they use the tresillo rhythm. 
+-   The concret focus of the project lays in analyzing popular songs (i.e top billboard songs over the years) by looking at their rhythmic structure to see if they use the tresillo rhythm. 
 
 -   Writing a rhythm detection algorithm and applying it to a popular music dataset 
 
--   Billboard archive for chart informations, Spotify API, Millions song dataset 
+-   Using this data to visualize the popularity of Tresillo rhythm over the years. 
 
 
-## Methods 
+## Methods/Rhythm analysis
 
--   Rhythm analysis 
-    - It is important to note that there is a collection of Rhythms very similar to Tresillo in Latin American rhythms. One instance of this is the Cinquillo Rhythm, a common embellishment of tresillo by adding eighth notes to the Tresillo rhythm. This raises the question of what qualifies as a Tresillo beat as many song's add/embellish the beat with added notes (similar to Cinquillo). The Son-Clave also has the same triplet pattern in the first half of the beat, should we include it in our analysis aswell?
-    - We need to detect the existence of tresillo beat in the song by either:
-        1. Training a classifier by using the list of existing songs we know about.
-        2. Write a program to detect the triplet pattern of the tresillo beat.
--   Time series analysis 
+This empirical study requires us to classify songs into 2 categories, which are 
+Song which have a triplet pattern running over a 4/4 meter 
+Songs which either do not have this triplet pattern or the triplet pattern is part of some other meter.
+Upon preliminary analysis and study, we have come up with the following directions to approach this problem. 
+### Machine Learning Classifier
+One of the ways to classify if a song belongs to a tresillo group defined above is to use a classifier such as an SVM or if need be, a neural network. The input to this classifier will be a (n x 8) timeseries, constructed from the first 30 bars of a song. To construct this time series matrix, we first need to find the bpm of a song. For this we can use the information provided in the midi file. If such information is not present in the midi file, depending on the number of such instances, we can either use the Echo Nest API provided by Spotify* to find the bpm of a song, otherwise we can ignore the song if the total number is limited.
+Once we have the BPM for a song, we’ll mark 8 points (Eighth note points) on the time dimension and check if for activation (i.e. any beat from either the drum or the bass, if drum is not present) in the vicinity of these points, in the midi file.
+This multihot array is stacked for `n` bars of a song to form the input timeseries.
+To create the training dataset, there is no easy way to find a published list of songs with tresillo rhythm (and all its variants) by a qualified musician. We can do the task manually for a limited number of songs by checking the resources about that song online. The downside of this would be that there would not be 1 single scholarly source for this training dataset and also there would only be a limited number of songs from the manual labelling. Hence the model might not show a very high precision and recall.
+As an extensions of the above, we can 
+- Include 3 instruments (Rhythm Percussion and Bass) instead of 1.
+- Consider 16th notes instead of 8th notes.
+- Supplement with velocities of the beats aswell. (i.e. change the input from multihot to [0-1] velocity based activations.)
+### Using Existing Literature
+
+### Modeling Tresillo rhythm
+This approach is most well suited if we have a single definition of tresillo rhythm. A preprocessing similar to the machine learning approach could then be extended to formally define the activation patterns and the strong beat. Although this is more formally defined and is not a black box, it would be difficult to model such an approach for a family of rhythms and their neighboring embellishments. 
 
 ## Literature 
--   An Analysis of Rhythmic Patterns with Unsupervised Learning - Pesek, Matevž; Leonardis, Aleš; Marolt, Matija
--   "The latin tinge" -- John Storm Roberts 
-
--   RHYTHMIC PATTERN MODELING FOR BEAT AND DOWNBEATTRACKING IN MUSICAL AUDIO [Florian Krebs. Sebastian Böck, Gerhard Widmer] 
-
--   The Cambridge companion to rhythm 
-
--   From Genre Classification to Rhythm Similarity: Computational and Musicological Insights -Esparza, Tlacael Miguel; Bello, Juan Pablo; Humphrey, Eric J. 
-
-*This questions is not directly addressed in any publication we could find, there are older puplications who examine the influence of latin music to the US music in general.*  
-
-## Contribution/Help 
-
--   How to develop a algorithm that is fine grained enough to detect the underlaying tresillo rhythm 
-
--   Did the use of the tresillo rhythm increase over the past decades 
 
 ## Data Links
-
-<https://colinraffel.com/projects/lmd/>
-
-<https://www.mididb.com/genres/>
-## Methods
-
-**Classifier:** labeling around 100 “Tresillo” rhythm (given their base and drum line in a MIDI file), and 100 typical non-“Tresillo” . Training a simple classifier which can detect the “Tresillo” rhythm (logistic regression, SVM, nothing complicated)
-
-**Modelling the “Tresillo” rhythm:** The “Tresillo” rhythm is clearly 
-[musically defined](https://en.wikipedia.org/wiki/Tresillo_(rhythm)) therefore we might be able to programmatically define and extract it with a rule based approach
-
-
-
-## Question for TA
-
--   How much manual labeling do we have to expect? Is the MIDI file format suitable for an ‘efficient’ programmatic data extraction & analysis?
--   Do you have additional resources & websites for popular music data? Are there legal restrictions on the data analysis of music?
--   In the methods part we describe a rule based approach and a machine-learning approach, what are your thoughts on that? Should we focus on one of those approaches?
--   How strict should we be in defining the rhythm?
--   Is the scope of the project managable (timewise and given our abilities)?
+There is no 1 single source for the corpus so we'll have to create it from a bigger dataset like the [Lakh Midi Dataset](https://colinraffel.com/projects/lmd/ "The Lakh MIDI Dataset v0.1") by filtering over the metadata based on fuzzy search from a list of songs. This list of songs is available on billboard archives.
+Other dataset to consider is [MidiDB](https://www.mididb.com/genres/).
