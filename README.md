@@ -12,8 +12,11 @@
 - This above goal also inherently includes the question **Can we detect the `Tresillo` rhythm in music pieces given a MIDI file?**
 
 ## Motivation & Goals: 
-The signature Tresillo beat in US pop music seem to gained popularity in recent decades., noticeable by an increasing number of hits using this beat. From Ed Sheeran’s “Shape of you” to “Cheap Thrills” from sia. The influence can also be seen in a lot of tracks from Drake (For instance, Passionfruit). There is a noticeable increase in the number of western pop songs which use this signature latin rhythm with it’s triplet pattern and some other variants, without sounding like Latin songs. It would be very interesting to see how big of an influence this rhythm has right now and how it increased/decreased over the past years. This main aim of the project is to measure the use of the triplet pattern from tresillo rhythm on the western pop culture. We plan to do this by analysing the top 100 songs from billboard over the years. 
-Possible outcomes may show a change over time, leading to new questions trying to explain the observed change. The use of the rhythm could also be static over time. 
+The Tresillo beat seem to have gained popularity in recent decades in US pop music. It seems that a noticeable number of pop and dance music songs use this beat and creat memorable and highly successful music with it. From Ed Sheeran’s “Shape of you” to sia's “Cheap Thrills” or the music of US American rapper Drake (e.g.: Passionfruit). This devolpment has been noticed by several institutional and idependent media outlets (e.g.: [Syncopation, Dancehall & Coldplay by Jasper Emmitt](https://medium.com/@jasperemmitt/syncopation-dancehall-coldplay-ede27c6d01cf).  This originally latin or african rhythm pattern, consisting of a tripplet beat played in the space of two macrobeats, has also been successfully 'westernised' and is now often employed without sounding 'latin'.
+In our project we would like to conduct a empiric study of the influence and usage of the Tresillo rhythm.  Thus we would like to trace the increased/decreased use of the Tresillo rhythm in western popular music. As main data we would inverstage feasibel top 100 billboard songs over the years. Possible outcomes may show a change over time, leading to new questions trying to explain the observed change. The use of the rhythm could also be static over time. 
+However preceeding, the empirical tracking of the popuarity of the rhythm, we will have to creat a rhythm detection algorithm which can detect the use of the  Tresillo rhythm given a suitable data format (e.g.: MIDI)
+
+
 
 ## Concepts 
 
