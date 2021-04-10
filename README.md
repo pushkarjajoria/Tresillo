@@ -30,9 +30,8 @@ However preceeding, the empirical tracking of the popuarity of the rhythm, we wi
 
 ## Methods/Rhythm analysis
 
-This empirical study requires us to classify songs into 2 categories, which are 
-Song which have a triplet pattern running over a 4/4 meter 
-Songs which either do not have this triplet pattern or the triplet pattern is part of some other meter.
+This empirical study requires us to classify songs into 2 categories: 1)Song which have a triplet pattern running over a 4/4 meter 
+2) Songs which either do not have this triplet pattern or the triplet pattern is part of some other meter.  
 Upon preliminary analysis and study, we have come up with the following directions to approach this problem. 
 ### Machine Learning Classifier
 One of the ways to classify if a song belongs to a tresillo group defined above is to use a classifier such as an SVM or if need be, a neural network. The input to this classifier will be a (n x 8) timeseries, constructed from the first 30 bars of a song. To construct this time series matrix, we first need to find the bpm of a song. For this we can use the information provided in the midi file. If such information is not present in the midi file, depending on the number of such instances, we can either use the Echo Nest API provided by Spotify* to find the bpm of a song, otherwise we can ignore the song if the total number is limited.
