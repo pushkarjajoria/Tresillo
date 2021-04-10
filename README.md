@@ -8,8 +8,8 @@
 
 ## Research question: 
 
-**Did the popularity of the `Tresillo*` increase over the past few decades?**
-- This above goal also inherently includes the question **Can we detect the `Tresillo*` rhythm in music pieces given a MIDI file?**
+**Did the popularity of the `Tresillo` increase over the past few decades?**
+- This above goal also inherently includes the question **Can we detect the `Tresillo` rhythm in music pieces given a MIDI file?**
 
 ## Motivation & Goals: 
 The signature Tresillo beat in US pop music is steadily rising, noticeable by an increasing number of hits using this beat. From Ed Sheeran’s “Shape of you” to “Cheap Thrills” from sia. The influence can also be seen in a lot of tracks from Drake (For instance, Passionfruit). There is a noticeable increase in the number of western pop songs which use this signature latin rhythm with it’s triplet pattern and some other variants, without sounding like Latin songs. It would be very interesting to see how big of an influence this rhythm has right now and how it increased/decreased over the past years. This main aim of the project is to measure the use of the triplet pattern from tresillo rhythm on the western pop culture. We plan to do this by analysing the top 100 songs from billboard over the years. 
