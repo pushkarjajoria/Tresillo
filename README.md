@@ -21,11 +21,7 @@ However preceeding, the empirical tracking of the popuarity of the rhythm, we wi
 
 ## Concepts 
 
--   The concret focus of the project lays in analyzing popular songs (i.e top billboard songs over the years) by looking at their rhythmic structure to see if they use the tresillo rhythm. 
-
--   Writing a rhythm detection algorithm and applying it to a popular music dataset 
-
--   Using this data to visualize the popularity of Tresillo rhythm over the years. 
+The concret focus of the project lays in analyzing popular songs (i.e top billboard songs over the years) by looking at their rhythmic structure to see if they use the tresillo rhythm. We plan to write a rhythm detection algorithm and applying it to a popular music dataset and further, using this data to visualize the popularity of Tresillo rhythm over the years. 
 
 
 ## Methods/Rhythm analysis
@@ -45,14 +41,13 @@ As an extensions of the above, we can
 - Include 3 instruments (Rhythm, Percussion and Bass) instead of 1.
 - Consider 16th notes instead of 8th notes.
 - Supplement with velocities of the beats aswell. (i.e. change the input from multihot _0/1 activations_ to _[0,1] velocity based activations_.)
-### 2. Using Existing Literature
 
-### 3. Modeling Tresillo rhythm
+### 2. Modeling Tresillo rhythm
 This approach is most well suited if we have a single definition of tresillo rhythm. A preprocessing similar to the machine learning approach could then be extended to formally define the activation patterns and the strong beat. Although this is more formally defined and is not a black box, it would be difficult to model such an approach for a family of rhythms and their neighboring embellishments. 
 
 ### Limitations and Evaluation
 Both proposed methods have inherent limitations and might not produce reliable results. 1) Concerning the Machine Learning method, data quality and quantity limitations might lead to an unreliable classifier. 2) Concerning modelling the Tresillo rhythm, it might require a lot of fine tuning and might be over-sensitive to small changes in parameters.  
-Given those limitations, our project will require a through evaluation of the qulaity of our methods. Thus a test set is needed on which we can quantify the reliability of our methods with suitable metrics (precision, recall, accuracy, etc.)  
+Given those limitations, our project will require a thorough evaluation of the quality of our methods. Thus a test set is needed on which we can quantify the reliability of our methods with suitable metrics (precision, recall, accuracy, etc.)  
 
 ## Literature 
 - Pesek, M., Leonardis, A., & Marolt, M. (2020). An analysis of rhythmic patterns with unsupervised learning. Applied Sciences, 10(1), 178.
