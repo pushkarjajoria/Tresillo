@@ -21,7 +21,7 @@ However preceeding, the empirical tracking of the popuarity of the rhythm, we wi
 
 ## Concepts 
 
-The concret focus of the project lays in analyzing popular songs (i.e top billboard songs over the years) by looking at their rhythmic structure to see if they use the tresillo rhythm. We plan to write a rhythm detection algorithm and applying it to a popular music dataset and further, using this data to visualize the popularity of Tresillo rhythm over the years. 
+The concret focus of the project lays in analyzing popular songs (i.e top billboard songs over the years) by looking at their rhythmic structure to see if they use the tresillo rhythm. We plan to write a rhythm detection algorithm and apply it to a popular music dataset. Furthermore, using this data set we want to visualize the use of Tresillo rhythm over time. 
 
 
 ## Methods/Rhythm analysis
@@ -56,5 +56,5 @@ Given those limitations, our project will require a thorough evaluation of the q
 - Rohrmeier, M. (2020). Towards a formalization of musical rhythm. In Proc. of the 21st Int. Society for Music Information Retrieval Conf.
 
 ## Data Links
-There is no 1 single source for the corpus so we'll have to create it from a bigger dataset like the [Lakh Midi Dataset](https://colinraffel.com/projects/lmd/ "The Lakh MIDI Dataset v0.1") by filtering over the metadata based on fuzzy search from a list of songs. This list of songs is available on billboard archives, or from [independed sources](https://data.world/kcmillersean/billboard-hot-100-1958-2017 "Billboard Hot weekly charts - Data.world") which have scraped the data from their websites.
+There is no 1 single source for the corpus so we'll have to create it from a bigger dataset like the [Lakh Midi Dataset](https://colinraffel.com/projects/lmd/ "The Lakh MIDI Dataset v0.1") by filtering over the metadata based on fuzzy searches from a list of songs. This list of songs is available on billboard archives, or from [independed sources](https://data.world/kcmillersean/billboard-hot-100-1958-2017 "Billboard Hot weekly charts - Data.world") which have scraped the data from their websites.
 Other dataset to consider is [MidiDB](https://www.mididb.com/genres/).
