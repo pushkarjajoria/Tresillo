@@ -47,7 +47,7 @@ This approach is most well suited if we have a single definition of tresillo rhy
 
 ### Limitations and Evaluation
 Both proposed methods have inherent limitations and might not produce reliable results. 1) Concerning the Machine Learning method, data quality and quantity limitations might lead to an unreliable classifier. 2) Concerning modelling the Tresillo rhythm, it might require a lot of fine tuning and might be over-sensitive to small changes in parameters.  
-Given those limitations, our project will require a thorough evaluation of the quality of our methods. Thus a test set is needed on which we can quantify the reliability of our methods with suitable metrics (precision, recall, accuracy, etc.)  
+Given those limitations, our project will require a thorough evaluation of the quality of our methods. Thus a test set is needed on which we can quantify the reliability of our methods with suitable metrics (precision, recall, accuracy, etc.).  
 
 ## Literature 
 - Pesek, M., Leonardis, A., & Marolt, M. (2020). An analysis of rhythmic patterns with unsupervised learning. Applied Sciences, 10(1), 178.
