@@ -21,7 +21,6 @@ song_artist,instrument,level_1,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15
 "Eastside-benny blanco, Halsey, Khalid",Synth Bass 2,count,16,0,0,16,16,0,0,0,15,0,0,15,15,0,7,0
 "Eastside-benny blanco, Halsey, Khalid",Tenor Sax,count,11,9,8,10,12,7,9,9,15,11,12,14,15,10,11,9
 "Eastside-benny blanco, Halsey, Khalid","Warm Pad, Eastside",count,44,0,0,0,0,0,0,0,18,0,0,0,27,0,0,0
-Willow-Taylor Swift,"Grand Piano, Right Hand",count,131,2,79,85,127,34,98,17,125,6,78,93,126,18,97,10
 New rules-Dua Lipa,Bright Piano,count,104,0,0,0,0,0,0,0,52,0,0,56,56,0,0,0
 New rules-Dua Lipa,"E.Piano, New Rules",count,24,0,0,80,0,0,0,0,0,0,0,84,0,0,74,0
 New rules-Dua Lipa,Metallic Pad,count,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -98,3 +97,4 @@ Taylor Swift_willow,Ocarina,count,12,0,0,4,0,0,4,0,4,0,0,3,0,0,3,0
 Taylor Swift_willow,Percussion,count,0,0,3,0,0,0,4,0,0,0,3,0,0,0,3,0
 Taylor Swift_willow,Slap Bass 1,count,75,0,0,20,0,0,20,0,60,0,5,20,5,0,15,0
 Taylor Swift_willow,na,count,24,0,0,8,0,0,8,0,8,0,0,6,0,0,6,0
+Taylor Swift_willow,"Grand Piano, Right Hand",count,131,2,79,85,127,34,98,17,125,6,78,93,126,18,97,10
