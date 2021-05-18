@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.02">
-  <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+<museScore version="3.01">
+  <programVersion>3.2.3</programVersion>
+  <programRevision>d2d863f</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <harmonyPlay>0</harmonyPlay>
-      <usePre_3_6_defaults>1</usePre_3_6_defaults>
-      <defaultsVersion>301</defaultsVersion>
       <Spatium>1.76389</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
@@ -23,7 +20,6 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
-    <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="originalFormat">midi</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
@@ -39,10 +35,9 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Fingered Bass, � MMP Sequencing</trackName>
-      <Instrument id="electric-bass">
+      <Instrument>
         <longName>Fingered Bass, � MMP Sequencing</longName>
         <trackName></trackName>
-        <instrumentId>pluck.bass.electric</instrumentId>
         <Channel>
           <program value="33"/>
           <synti>Fluid</synti>
@@ -59,10 +54,9 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Rev. Cymbal</trackName>
-      <Instrument id="piano">
+      <Instrument>
         <longName>Rev. Cymbal</longName>
         <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
         <Channel>
           <program value="119"/>
           <synti>Fluid</synti>
@@ -78,12 +72,10 @@
           </StaffType>
         </Staff>
       <trackName>Flute</trackName>
-      <Instrument id="Winds">
+      <Instrument>
         <longName>Flute</longName>
         <trackName></trackName>
-        <instrumentId>wind.group</instrumentId>
         <Channel>
-          <controller ctrl="32" value="17"/>
           <program value="73"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -98,12 +90,10 @@
           </StaffType>
         </Staff>
       <trackName>Choir Aahs</trackName>
-      <Instrument id="voice">
+      <Instrument>
         <longName>Choir Aahs</longName>
         <trackName></trackName>
-        <instrumentId>voice.vocals</instrumentId>
         <Channel>
-          <controller ctrl="32" value="17"/>
           <program value="52"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -119,10 +109,9 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>DistortionGtr</trackName>
-      <Instrument id="piano">
+      <Instrument>
         <longName>DistortionGtr</longName>
         <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
         <Channel>
           <program value="30"/>
           <synti>Fluid</synti>
@@ -146,10 +135,9 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>E.Piano</trackName>
-      <Instrument id="electric-piano">
+      <Instrument>
         <longName>E.Piano</longName>
         <trackName></trackName>
-        <instrumentId>keyboard.piano.electric</instrumentId>
         <Channel>
           <program value="4"/>
           <synti>Fluid</synti>
@@ -165,12 +153,10 @@
           </StaffType>
         </Staff>
       <trackName>Blown Bottle</trackName>
-      <Instrument id="danso">
+      <Instrument>
         <longName>Blown Bottle</longName>
         <trackName></trackName>
-        <instrumentId>wind.flutes.danso</instrumentId>
         <Channel>
-          <controller ctrl="32" value="17"/>
           <program value="76"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -187,10 +173,9 @@
         <defaultClef>PERC</defaultClef>
         </Staff>
       <trackName>Percussion</trackName>
-      <Instrument id="piano">
+      <Instrument>
         <longName>Percussion</longName>
         <trackName></trackName>
-        <instrumentId>keyboard.piano</instrumentId>
         <useDrumset>1</useDrumset>
         <Drum pitch="35">
           <head>normal</head>
@@ -376,7 +361,6 @@
           </Drum>
         <Channel>
           <controller ctrl="0" value="1"/>
-          <controller ctrl="32" value="0"/>
           <program value="32"/>
           <synti>Fluid</synti>
           <midiPort>0</midiPort>
@@ -391,10 +375,9 @@
           </StaffType>
         </Staff>
       <trackName>Steel Gtr.</trackName>
-      <Instrument id="bouzouki-3-course">
+      <Instrument>
         <longName>Steel Gtr.</longName>
         <trackName></trackName>
-        <instrumentId>pluck.bouzouki</instrumentId>
         <Channel>
           <program value="25"/>
           <synti>Fluid</synti>
@@ -411,10 +394,9 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Clean Guitar</trackName>
-      <Instrument id="electric-guitar">
+      <Instrument>
         <longName>Clean Guitar</longName>
         <trackName></trackName>
-        <instrumentId>pluck.guitar.electric</instrumentId>
         <Channel>
           <program value="27"/>
           <synti>Fluid</synti>
@@ -430,10 +412,9 @@
           </StaffType>
         </Staff>
       <trackName>Banjo</trackName>
-      <Instrument id="banjo">
+      <Instrument>
         <longName>Banjo</longName>
         <trackName></trackName>
-        <instrumentId>pluck.banjo</instrumentId>
         <Channel>
           <program value="105"/>
           <synti>Fluid</synti>
@@ -450,10 +431,9 @@
         <defaultClef>F</defaultClef>
         </Staff>
       <trackName>Melodic Drum</trackName>
-      <Instrument id="roto-toms">
+      <Instrument>
         <longName>Melodic Drum</longName>
         <trackName></trackName>
-        <instrumentId>drum.rototom</instrumentId>
         <Channel>
           <program value="117"/>
           <synti>Fluid</synti>
