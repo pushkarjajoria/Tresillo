@@ -70,8 +70,6 @@ If you use any part of this analysis, dataset, or code, please cite our paper:
 }
 ```
 
-This should be placed at the end of the README.md file under a new section titled "References". The code block ensures the BibTeX citation can be easily copied and pasted as needed.
-
 ## Data Links
 There is no 1 single source for the corpus so we'll have to create it from a bigger dataset like the [Lakh Midi Dataset](https://colinraffel.com/projects/lmd/ "The Lakh MIDI Dataset v0.1") by filtering over the metadata based on fuzzy searches from a list of songs. This list of songs is available on billboard archives, or from [independed sources](https://data.world/kcmillersean/billboard-hot-100-1958-2017 "Billboard Hot weekly charts - Data.world") which have scraped the data from their websites.
 Other dataset to consider is [MidiDB](https://www.mididb.com/genres/).
