@@ -55,6 +55,23 @@ Given those limitations, our project will require a thorough evaluation of the q
 - Esparza, T. M., Bello, J. P., & Humphrey, E. J. (2015). From genre classification to rhythm similarity: Computational and musicological insights. Journal of New Music Research, 44(1), 39-57.
 - Rohrmeier, M. (2020). Towards a formalization of musical rhythm. In Proc. of the 21st Int. Society for Music Information Retrieval Conf.
 
+
+## Citation
+
+If you use any part of this analysis, dataset, or code, please cite our paper:
+```
+@misc{jajoria2021computational,
+      title={Towards a computational definition of the tresillo rhythm and its tracing in popular music}, 
+      author={Pushkar Jajoria and Florian Krenn and Aurel Mäder},
+      year={2021},
+      eprint={2109.10256},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR}
+}
+```
+
+This should be placed at the end of the README.md file under a new section titled "References". The code block ensures the BibTeX citation can be easily copied and pasted as needed.
+
 ## Data Links
 There is no 1 single source for the corpus so we'll have to create it from a bigger dataset like the [Lakh Midi Dataset](https://colinraffel.com/projects/lmd/ "The Lakh MIDI Dataset v0.1") by filtering over the metadata based on fuzzy searches from a list of songs. This list of songs is available on billboard archives, or from [independed sources](https://data.world/kcmillersean/billboard-hot-100-1958-2017 "Billboard Hot weekly charts - Data.world") which have scraped the data from their websites.
 Other dataset to consider is [MidiDB](https://www.mididb.com/genres/).
