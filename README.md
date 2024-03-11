@@ -1,3 +1,5 @@
+**Please note that I do not own the MIDI files included in this project. If you wish to use them, it is essential to consult and obtain permission from the original creators.**
+
 # Tresillo Rhythm: 
 
 ## Research Question: 
@@ -17,4 +19,4 @@ The concrete focus of the project lies in analyzing popular songs (i.e., top Bil
 
 ## Data Links
 There is no single source for the corpus, so we have created it from a bigger dataset like the [Lakh Midi Dataset](https://colinraffel.com/projects/lmd/ "The Lakh MIDI Dataset v0.1") by filtering over the metadata based on fuzzy searches from a list of songs. This list of songs is available on Billboard archives, or from [independent sources](https://data.world/kcmillersean/billboard-hot-100-1958-2017 "Billboard Hot weekly charts - Data.world") which have scraped the data from their websites.
-Another dataset to consider is [MidiDB](https://www.mididb.com/genres/).
+Another dataset we have used is [MidiDB](https://www.mididb.com/genres/).
